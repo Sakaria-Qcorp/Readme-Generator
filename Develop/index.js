@@ -38,7 +38,7 @@ function writeToFile(fileName, data) {
 function init() { 
     inquirer.prompt(questions).then(answers => {
         console.log(answers);
-     }).then(writeToFile("Readme.md",questions));
+     })
 }
 
 // Function call to initialize app
