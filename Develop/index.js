@@ -12,16 +12,60 @@ const questions = [
     },
     {
 
-        type: "checkbox",
-        name: "Technology",
-        message: "What type of technology did you use on the project?",
-        choices: ["HTML","Javacript","Node", "CSS", "JQuery"]
+        type: "input",
+        name: "Author",
+        message: "What the name of the person who created this project?"
     },
     {
 
         type: "input",
-        name: "Author",
-        message: "What the name of the person who created this project??"
+        name: "Email",
+        message: "What is your email address?",
+    },
+    {
+
+        type: "input",
+        name: "Github UserName",
+        message: "What is your GitHub user name?",
+    },
+    {
+
+        type: "checkbox",
+        name: "Technology",
+        message: "What type of technology did you use on the project?",
+        choices: ["HTML","Javacript","Node", "CSS", "JQuery","Node"]
+    },
+    {
+
+        type: "input",
+        name: "Description",
+        message: "What is a short description of your project?",
+    },
+ 
+    {
+
+        type: "list",
+        name: "License",
+        message: "What type of license should your project have?",
+        choices: ["MIT", "Apache 2.0","GPL 3.0","BSD 3","None"]
+    },
+    {
+
+        type: "input",
+        name: "Dependencies",
+        message: "What command should be used to install dependencies?",
+    },
+    {
+
+        type: "input",
+        name: "Test",
+        message: "What command should be used to run tests?",
+    },
+    {
+
+        type: "input",
+        name: "Repo Info",
+        message: "What information should a user have about the Repo?",
     },
 
 
