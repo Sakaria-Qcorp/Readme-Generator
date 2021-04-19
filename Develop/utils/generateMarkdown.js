@@ -24,11 +24,13 @@ function generateMarkdown(response) {
   return `# ${response.title}
   ${renderLicenseBadge(response.license)}
   ## Description
-  ${response.description}`
+  ${response.description}
+  ## Table of Contents
 
 
 
 
+`
 }
 
 module.exports = generateMarkdown;
