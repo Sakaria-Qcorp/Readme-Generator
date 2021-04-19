@@ -42,6 +42,9 @@ function generateMarkdown(response) {
   ${response.contribution}
   ## Tests
   ${response.test}
+  ## License
+  ${response.license}
+  
 
 `;
 
