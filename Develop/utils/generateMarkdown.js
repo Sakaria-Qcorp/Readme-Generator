@@ -30,7 +30,8 @@ function generateMarkdown(response) {
   - [Usage](#usage)
   - [Contribution](#contribution)
   - [Test](#tests)
-  
+  - [License](#license)
+  - [Questions](#Question)
 
 
 
