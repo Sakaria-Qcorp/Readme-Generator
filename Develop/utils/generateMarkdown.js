@@ -26,6 +26,10 @@ function generateMarkdown(response) {
   ## Description
   ${response.description}
   ## Table of Contents
+  - [Installation](#installation)
+  - [Usage](#usage)
+
+  
 
 
 
