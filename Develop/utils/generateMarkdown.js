@@ -2,31 +2,20 @@
 // If there is no license, return an empty string
 function renderLicenseBadge(license) {
   if (license !== 'None') {
-    return `![License:](https://img.shields.io/badge/License-${license}-green.svg)`
+    return `![License:](https://img.shields.io/badge/License-${license}-brightgreen.svg)`
 }
 return '';
 
 }
 
-
-// TODO: Create a function that returns the license link
-// If there is no license, return an empty string
-function renderLicenseLink(license) {
-  
-}
-
-// TODO: Create a function that returns the license section of README
-// If there is no license, return an empty string
-function renderLicenseSection(license) {}
-
 // TODO: Create a function to generate markdown for README
 function generateMarkdown(response) {
-  return `# ${response.title}
-  ${renderLicenseBadge(response.license)}
+  return `# Project Name: ${response.title}
+ 
   ## Description
   ${response.description}
   ## author
-  ${response.author}
+  ${response.Author}
 
   ## Table of Contents
   - [Installation](#installation)
@@ -42,17 +31,21 @@ function generateMarkdown(response) {
   ${response.installation}
   
   ## Usage
+
   ${response.description}
+
   ${response.technology}
-  
+
   ## Dependencies
   ${response.dependencies}
-  ## Contribution
-  ${response.contribution}
+
+  ## Contributors
+  ${response.collaborators}
   ## Tests
   ${response.test}
   ## License
   ${response.license}
+  ${renderLicenseBadge(response.license)}
 
   ## Contact
   For further contact information, contact me here:
