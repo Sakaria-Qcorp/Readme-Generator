@@ -25,9 +25,13 @@ function generateMarkdown(response) {
   ${renderLicenseBadge(response.license)}
   ## Description
   ${response.description}
+  ## author
+  ${response.author}
+
   ## Table of Contents
   - [Installation](#installation)
   - [Usage](#usage)
+  - [dependencies](#dependencies)
   - [Contribution](#contribution)
   - [Test](#tests)
   - [License](#license)
@@ -37,7 +41,9 @@ function generateMarkdown(response) {
   ${response.installation}
   
   ## Usage
-  ${response.usage}
+  ${response.description}
+  ## Dependencies
+  ${response.dependencies}
   ## Contribution
   ${response.contribution}
   ## Tests
@@ -45,29 +51,18 @@ function generateMarkdown(response) {
   ## License
   ${response.license}
 
-  ## Installation
-  ${response.installation}
-  
-  ## Usage
-  ${response.usage}
-  ## Contribution
-  ${response.contribution}
-  ## Tests
-  ${response.test}tests}
-  ## License
-  ${response.license}
   ## Contact
   For further contact information, contact me here:
   * Email Address: ${response.email}
   * GitHub: [${response.github}](https://github.com/${response.github})
-`;
+  
+  ## Any additional information
+  ${response.additional}
   
 
-
-
-
-
-
+  
+`;
+  
 }
 
 module.exports = generateMarkdown;

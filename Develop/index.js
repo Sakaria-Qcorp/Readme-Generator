@@ -51,7 +51,7 @@ const questions = [
     {//The license of the project should have links
 
         type: "list",
-        name: "License",
+        name: "license",
         message: "What type of license should your project have?",
         choices: ["MIT", "Apache 2.0","GPL 3.0","BSD 3","None"]
     },
@@ -64,14 +64,14 @@ const questions = [
     {//The Test
 
         type: "input",
-        name: "Test",
+        name: "test",
         message: "What command should be used to run tests?",
     },
     {///Additional info on the Repo
 
         type: "input",
-        name: "Repo Info",
-        message: "What information should a user have about the Repo?",
+        name: "additional",
+        message: "What other information would you like to give to the user on this project?",
     },
 
 
