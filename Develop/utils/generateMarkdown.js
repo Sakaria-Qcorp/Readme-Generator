@@ -44,9 +44,25 @@ function generateMarkdown(response) {
   ${response.test}
   ## License
   ${response.license}
+
+  ## Installation
+  ${response.installation}
+  
+  ## Usage
+  ${response.usage}
+  ## Contribution
+  ${response.contribution}
+  ## Tests
+  ${response.test}tests}
+  ## License
+  ${response.license}
+  ## Contact
+  For further contact information, contact me here:
+  * Email Address: ${response.email}
+  * GitHub: [${response.github}](https://github.com/${response.github})
+`;
   
 
-`;
 
 
 
