@@ -36,6 +36,8 @@ function generateMarkdown(response) {
   ## Installation
   ${response.installation}
   
+  ## Usage
+  ${response.usage}
 
 `;
 
