@@ -36,12 +36,15 @@ function generateMarkdown(response) {
   - [Test](#tests)
   - [License](#license)
   - [Questions](#Question)
+  - [Additional](#additional)
 
   ## Installation
   ${response.installation}
   
   ## Usage
   ${response.description}
+  ${response.technology}
+  
   ## Dependencies
   ${response.dependencies}
   ## Contribution

@@ -19,32 +19,32 @@ const questions = [
     {// The collaborators
 
         type: "input",
-        name: "Collaborators",
+        name: "collaborators",
         message: "Who else contributed to the project?"
     },
     {///Your contact info email
 
         type: "input",
-        name: "Email",
+        name: "email",
         message: "What is your email address?",
     },
     {//Your contact info Git hub UserName
 
         type: "input",
-        name: "Github",
+        name: "github",
         message: "What is your GitHub user name?",
     },
     {//The technologies being used ont the project
 
         type: "checkbox",
-        name: "Technology",
+        name: "technology",
         message: "What type of technology did you use on the project?",
         choices: ["HTML","Javacript","Node", "CSS", "JQuery","Node"]
     },
     {//The usage of the project
 
         type: "input",
-        name: "Description",
+        name: "description",
         message: "What is a short description of your project?",
     },
  
