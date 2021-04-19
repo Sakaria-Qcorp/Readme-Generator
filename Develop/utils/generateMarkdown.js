@@ -40,6 +40,8 @@ function generateMarkdown(response) {
   ${response.usage}
   ## Contribution
   ${response.contribution}
+  ## Tests
+  ${response.test}
 
 `;
 
