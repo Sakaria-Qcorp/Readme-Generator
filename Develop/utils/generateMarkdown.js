@@ -33,10 +33,16 @@ function generateMarkdown(response) {
   - [License](#license)
   - [Questions](#Question)
 
+  ## Installation
+  ${response.installation}
+  
+
+`;
 
 
 
-`
+
+
 }
 
 module.exports = generateMarkdown;
