@@ -97,7 +97,7 @@ function init() {
     inquirer.prompt(questions).then(answers => {
         console.log(answers);
 
-        writeToFile("Readme.md",answers);
+        writeToFile("README.md",answers);
      })
 }
 

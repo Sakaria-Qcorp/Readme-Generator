@@ -7,6 +7,13 @@ function renderLicenseBadge(license) {
 return '';
 
 }
+function renderLicenseLink(license) {
+  if (license !== 'None') {
+    return "- [License](#license)";
+}
+   return "";
+
+}
 
 // TODO: Create a function to generate markdown for README
 function generateMarkdown(response) {
@@ -23,7 +30,7 @@ function generateMarkdown(response) {
   - [dependencies](#dependencies)
   - [Contribution](#contribution)
   - [Test](#tests)
-  - [License](#license)
+  ${renderLicenseLink(response.license)}
   - [Questions](#Question)
   - [Additional](#additional)
 
