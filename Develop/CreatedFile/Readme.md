@@ -1,7 +1,7 @@
-# Project Name: AwesomePro
+# Project Name: ReadME Generator
  
   ## Description
-  Creates a read me file baised on use input
+  This program generates a Readme depending on the users input>
   ## author
   Sakaria Ahmed
 
@@ -11,7 +11,7 @@
   - [dependencies](#dependencies)
   - [Contribution](#contribution)
   - [Test](#tests)
-  - [License](#license)
+  
   - [Questions](#Question)
   - [Additional](#additional)
 
@@ -20,28 +20,28 @@
   
   ## Usage
 
-  Creates a read me file baised on use input
+  This program generates a Readme depending on the users input>
 
-  HTML,Javacript,Node
+  Javacript,Node
 
   ## Dependencies
-  inquirer
+  Inquirer
 
   ## Contributors
-  No one
+  NA
   ## Tests
   npm test
   ## License
-  Apache 2.0
-  ![License:](https://img.shields.io/badge/License-Apache 2.0-brightgreen.svg)
+  None
+  
 
   ## Contact
   For further contact information, contact me here:
-  * Email Address: ahmed@gmail.com
-  * GitHub: [sakariaqcorp](https://github.com/sakariaqcorp)
+  * Email Address: ahmedsakaria32@gmail.com
+  * GitHub: [Sakaria-Qcorp](https://github.com/Sakaria-Qcorp)
   
   ## Any additional information
-  the repo is easy to use
+  This program is easy to use through the terminal
   
 
   
